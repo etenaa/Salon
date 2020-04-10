@@ -1,0 +1,199 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark);
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contentWrapper {
+  width: 100%;
+  margin: 0px;
+}
+
+.topSideinfo {
+  background-color: orange;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: auto;
+  padding: 0;
+}
+
+.topDetailsleft {
+  color: white;
+}
+
+.rightSideinfo {
+  color: white;
+}
+
+.rightSideinfo p {
+  float: right;
+  margin-right: 1rem;
+}
+
+.navigator {
+  background-color: black;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.nav li {
+  float: right;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #111;
+  background-size: contain;
+}
+
+.mainWrapper {
+  min-height: 500px;
+  background-image: url(Resources/salonMain.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 3rem;
+}
+
+.imageTopSide {
+  padding: 3rem;
+}
+
+#h3MainCenter {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  font-family: 'Trocchi', serif;
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 48px;
+  margin-top: 20rem;
+}
+
+/* Portfolio */
+.servicesDiv {
+  padding: 8px;
+  display: grid;
+  overflow: hidden;
+  grid-gap: 20px;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.servicesDiv>div {
+  min-height: 300px;
+}
+
+.servicesHair {
+  background-image: url(Resources/hairD.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.servicesNail {
+  background-image: url(Resources/nail.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.servicesMessage {
+  background-image: url(Resources/massage.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.servicesShaving {
+  background-image: url(Resources/shaving.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.services {
+  max-width: : 90%;
+  padding: 1rem;
+  height: 200px;
+  overflow: hidden;
+}
+
+.services img {
+  align-items: center;
+}
+
+#portofolioPresentation {
+  text-align: center;
+}
+
+.bottomPart {
+  background-image: url(Resources/bottom.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bottomPart h2 {
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+}
+
+.bottomPart h3 {
+  text-align: center;
+  color: white;
+}
+
+.articlePublish {
+  display: grid;
+  grid-template-columns: 20% 5% 75%;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.articlePublish div {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 200px;
+}
+
+.articlePublish img {
+  max-width: 100%;
+  padding: 2px;
+  margin-top: 2rem;
+}
+
+.blogPart {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+#goldenTitle {
+  margin-top: 1px;
+  color: #DAA520;
+}
+
+#dates {
+  font-size: 15px;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer {
+  padding: 3rem;
+  background-color: black;
+  color: red;
+  display: grid;
+}
